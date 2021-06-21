@@ -1,0 +1,12 @@
+# Data structure:data structure holo computer memory te bibinno
+vave data sajano x songrokkon korar poddoti.
+
+# complexity: Time and space
+
+# Algorighom: Algorighom hocce problem solve korar jonno kicho steps.
+(mathemeticly proved)
+
+
+# time complexity: akti kaj korte akti program koto time laglo, seti time complexity 
+
+# space complexity: how much memory use it
