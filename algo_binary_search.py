@@ -14,9 +14,10 @@ step 8: element not found return -1
 """
 
 def binery_search(L, x):
+    """ Binary Search"""
     left, right = 0, len(L) - 1
 
-    while left <= right: 
+    while left <= right: # position
         mid = (left + right) // 2 # init mid and return int division
 
         if L[mid] == x:
@@ -31,7 +32,7 @@ def binery_search(L, x):
 
 
 if __name__ == "__main__":
-    L = [3,5,6,8,9]
+    L = sorted([3,5,6,8,9])
 
     for x in range(1, 11):
         position = binery_search(L, x)
