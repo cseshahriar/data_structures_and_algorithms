@@ -18,7 +18,7 @@ def selection_sort(L):
             if L[j] < L[index_main]: # list[j] if less than list[current index position or upper loop]
                 index_main = j
 
-        if index_main != i:
+        if index_main != i: # if upper loop != index_main 
             L[i], L[index_main] = L[index_main], L[i] # swap
 
 
