@@ -11,7 +11,7 @@ def bubble_soft(L):
     n = len(L) # list length
 
     for i in range(0, n): # step 1 (iterate 0 to n-1) means for the L 0 to 4(5-1)
-        for j in range(0, n-i-1): # step 2
+        for j in range(0, n-i-1): # step 2 (list size decrement upper to lower) e.g 5-0-1=4*times
             if L[j] > L[j+1]: # step 3
                 L[j], L[j+1] = L[j+1], L[j] # swap
 
