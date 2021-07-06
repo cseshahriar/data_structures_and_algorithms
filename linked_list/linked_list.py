@@ -1,4 +1,12 @@
-""" Single Linked List """
+""" Single Linked List 
+    uses: Operating system design
+    uses: graph algorithom
+    uses: hash table
+
+    node: [data, next]
+    head: start
+    next: next data address(pointer)
+"""
 
 class Node:
     """ node class """
@@ -31,14 +39,16 @@ class LinkedList:
         return ",".join(nodes)
 
     def prepend(self, data):
+        """ add item in before first item"""
         node = Node(data, self.head.next)
         self.head.next = node
 
     def append(self, data):
+        """ add item in after last item"""
         node = Node(data) # create node object
         # if linked list is None, then head is None
         # so head.next = node and return
-        if self.head.next is None:
+        if self.head.next is None: # if have is empty, than true
             self.head.next = node
 
             return
@@ -54,6 +64,7 @@ class LinkedList:
             
 
     def search(self, item):
+        """ search item """
         current_node = self.head.next
 
         # current_node if None, then loop out
@@ -86,6 +97,7 @@ class LinkedList:
             previous_node.next = current_node.next
 
     def insert(self, data, new_data):
+        """ insert item between inside first and last"""
         current_node = self.head.next
 
         while current_node:
