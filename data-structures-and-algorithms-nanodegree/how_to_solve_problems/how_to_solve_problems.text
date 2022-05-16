@@ -1,0 +1,49 @@
+How to solve problems?
+
+Quiz?
+
+1. What is the first thing we should do to solve a problem ?
+    1. Start writing code
+    2. Make sure we understand the problem (Answer)
+    3. search Google for the answer
+    4. work out an algorithm that solves it
+
+
+2. Understanding a Problem?
+    problem: Give your birthday and the current date, calculate your age in days.
+
+    analysis:
+        1. Set of possible Input 
+        2. Procedure
+        3. desired the Output
+
+
+The First Rule: Pythonista's Guide to all problems in the galaxy.
+    0. Don't Panic
+    1. What are the inputs?
+    2. What are the outputs?
+    3. Work through some example by hand 
+    4. Simple mechanical solution
+    5. Develop increentally and test as we go
+-------------------------------------------------------------------------------
+What are the inputs?
+    Problem: Give your birthday and the current date, calculate your age in days.
+    So Inputs: two dates(Birthday, current date)
+    * Second date must not be before first date -> Defensive programming(check this on code)
+    # Gregorian calendar (15 oct 1582)
+
+    how are inputs represented?
+        def days_between_dates (year, month, day, year2, month2, day2):
+
+
+What are the outputs?
+    * print a number giving the number of days between the first date and the second date.
+    * Return a number giving the number of days between the first date and the second date.
+    * Output three values givings the number of years, months and days between the two dates
+
+
+Quiz: How should are the outputs?
+    1 Print a number giving the numbers
+
+
+
